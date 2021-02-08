@@ -1,0 +1,22 @@
+01. Introduction
+06.02.2020
+
+0. General:
+- [static class]:
+- A static class is basically the same as a non-static class, but there is one difference:
+a static class cannot be instantiated. In other words, you cannot use the new operator to create
+a variable of the class type. Because there is no instance variable, you access the members of a
+static class by using the class name itself
+
+- [sealed]:
+When applied to a class, the sealed modifier prevents other classes from inheriting from it.
+
+2. The difference between C# and .NET Framework:
+- C#:
+C# is a high-level general purpose programming language developed by Microsoft Corporation between 1998 and 2002,
+which aims to address the weaknesses in C and C++, such as memory management, type handling and also to introduce more functinality
+in them, creating a competitor for Java in the developer marketplace.
+
+- .NET Framework:
+.NET Framework is a set of libraries, software modules and code written in C# which allows developers in that language to write
+applications in C# faster and with better safety and structure.

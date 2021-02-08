@@ -1,0 +1,8 @@
+02. Data types
+07.02.2020
+
+0. General:
+- [static method]:
+A static method in C# is a method that keeps only one copy of the method at the Type level, not the object level.
+That means, all instances of the class share the same copy of the method and its data.
+The last updated value of the method is shared among all objects of that Type. 
