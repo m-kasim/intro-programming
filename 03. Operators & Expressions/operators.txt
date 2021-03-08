@@ -1,0 +1,18 @@
+1. General:
+ADD - copies all values of the original. it is "destructive" because it "burns" all the digits to the left of the mask
+OR -  copies all ones (usually used to write the values of a mask, with which we compare the original)
+XOR - finds difference. switches the values of two variables when used 3 times
+
+2. Swap the values of a variable: Triple XOR method:
+1001010101
+1111111111
+0110101010 <==== Triple
+1001010101
+1111111111
+
+x = 3
+y = 5
+
+x = x ^ y
+y = x ^ y
+x = x ^ y
